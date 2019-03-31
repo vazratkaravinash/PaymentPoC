@@ -1,5 +1,5 @@
-# Hospital PoC
-##### Add doctor and patient details
+# Payment PoC
+#####Transfer money using blockchain
 
 > Build dependency 
 

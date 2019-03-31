@@ -1,0 +1,7 @@
+We have used ethereum blockchain. User can perform average 15 transactions per second. If we consider visa payment gateway, currently it is capable to process 45k transactions per second.
+ Using ethereum, It is impossible to process more number of transactions as it uses proof work algorithm which involves huge computation which yeild into less number of transactions to process.
+In order to improve the performance of the application:
+1. Use POA(proof od authority algoritm instead of pow).
+2. Ethereum latest realease come with PoS algorithm. Ethereumm with PoS is capable to perform 1000 transactions per second.
+3.  
+

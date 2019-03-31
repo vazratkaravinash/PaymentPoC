@@ -1,0 +1,22 @@
+<div>
+    <div class="form-style-6">
+        <h1>Add Money</h1>
+        <form method="post" action="/user/addMoney">
+        <select>
+            <option></option>
+        </select>
+            <input type="text" name="amount" placeholder="Enter amount" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+     {{#if success}}
+
+    <div id = "successMessage">
+            {{message}} {{result}}
+    </div>
+    {{else}}
+    <div id = "failureMessage">
+            {{message}} {{error}}
+    </div>
+    {{/if}}
+</div>

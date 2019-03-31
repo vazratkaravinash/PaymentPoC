@@ -1,0 +1,21 @@
+<div>
+    <div class="form-style-6">
+        <h1>Transfer</h1>
+        <form method="post" action="/user/transfer">
+            <input type="text" name="to" placeholder="Receiver Address" />
+            <input type="text" name="amount" placeholder="Enter amount" />
+            <input type="password" name="password" placeholder="Enter pin" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+    {{#if success}}
+
+    <div id = "successMessage">
+            {{message}} {{result}}
+    </div>
+    {{else}}
+    <div id = "failureMessage">
+            {{message}} {{error}}
+    </div>
+    {{/if}}
+</div>

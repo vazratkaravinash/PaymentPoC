@@ -1,0 +1,20 @@
+{
+    "development": {
+        "host": "localhost",
+        "user": "root",
+        "password": "India@1234",
+        "database": "bank",
+        "connectionLimit":100,
+        "driver": "mysql",
+        "multipleStatements": true
+    },
+    "production": {
+    	"host": {"ENV": "localhost"},
+        "user": {"ENV": "root"},
+        "password": {"ENV": "root"},
+        "database": {"ENV": "multisig"},
+        "driver": "mysql",
+        "multipleStatements": true
+    },
+    "sql-file" : true
+}

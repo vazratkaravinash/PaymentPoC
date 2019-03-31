@@ -1,0 +1,32 @@
+{
+  "name": "walletmultisig",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": " ./node_modules/db-migrate/bin/db-migrate up && node ./bin/www",
+    "prebuild": "cd lib && sh deploy.sh"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "connect-redis": "^3.4.0",
+    "cookie-parser": "~1.4.3",
+    "db-migrate": "^0.11.5",
+    "db-migrate-mysql": "^1.1.10",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "express": "~4.16.0",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.15.6",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "log4js": "^4.0.2",
+    "morgan": "~1.9.0",
+    "redis": "^2.8.0",
+    "solc": "^0.4.24",
+    "uuidv4": "^3.0.1",
+    "web3": "^0.20.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}

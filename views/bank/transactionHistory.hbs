@@ -1,0 +1,28 @@
+
+    <div class="tableFormat">
+        <div>
+            <h2>Approve User</h2>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Transaction Hash</th>
+                    <th>Block Hash</th>
+                    <th>Block Number</th>
+                    <th>Event Details</th>
+                </tr>
+                {{#each result}}
+
+                <tr>
+                    <th>{{this.event}}</th>
+                    <th>{{this.transactionHash}}</th>
+                    <th>{{this.blockHash}}</th>
+                    <th>{{this.blockNumber}}</th>
+                    <th>{{this.args}}</th>
+
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>

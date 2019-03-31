@@ -1,0 +1,10 @@
+{
+    "bcrypt": {
+        "saltRounds": 10
+    },
+    "blockchain": {
+        "unlockTime": 5,
+        "localBlockchain": "http://127.0.0.1:7545",
+        "gasPrice": 20000000000
+    }
+}

@@ -1,0 +1,24 @@
+<div class="tableFormat">
+    <div>
+        <h2>Transaction Log</h2>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Email</th>
+                <th>Rophsten Address</th>
+                <th>Local Ethereum Address</th>
+                <th>Type</th>
+            </tr>
+            {{#each data}}
+
+            <tr>
+                <th>{{this.email}}</th>
+                <th>{{this.rophston_address}}</th>
+                <th>{{this.local_blockchain_address}}</th>
+                <th>{{this.type}}</th>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</div>

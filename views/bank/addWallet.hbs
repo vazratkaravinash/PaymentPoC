@@ -1,0 +1,21 @@
+<div>
+{{#if result }}
+<div class="form-style-6">
+    <label> Name: {{result.name}}</label>
+    <label> Address: {{result.address}}</label>
+    <label> Balance: {{result.balance}}</label>
+</div>
+{{else}}
+<div>
+    <div class="form-style-6">
+        <h1>Add Money</h1>
+        <form method="post" action="/user/addWallet">
+            <input type="text" name="username" placeholder="Enter username for wallet" />
+            <input type="text" name="password" placeholder="Enter transaction pin" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</div>
+{{/if}}
+</div>
+
